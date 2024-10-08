@@ -1,0 +1,33 @@
+
+h1{
+    color:red
+    
+}
+
+
+h2#titulo1{
+    color:blue
+}
+h2#titulo2{
+    color:green
+}
+div#div1{
+    background-color:gray 
+}
+div#div2{
+    
+    border: 2px solid black;
+}
+div#div2{
+    background-color: gray;
+}
+
+div#div1{
+    border: 2px solid black
+}
+div#div3{
+    border: 2px solid black;
+}
+div#div4{
+    border: 2px solid black;
+}
