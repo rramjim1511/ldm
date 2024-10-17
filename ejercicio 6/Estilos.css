@@ -1,0 +1,59 @@
+html{
+    font-style: Times New Roman",
+    Times, serif;
+}
+h1{
+    color:#333;
+    font-size: 20px;
+}
+h2{
+    color:#666;
+    font-size: 16px;
+}
+th{
+    color:white;
+    font-size: 16px;
+    border:1px solid black
+}
+a{
+    color:blue;
+    font-size: 16px;
+}
+p{
+    color:#000;
+    font-size: 16px;
+}
+ul{
+    color:#000;
+    font-size: 16px;
+}
+tbody{
+    color:#000;
+    font-size: 16px;
+    background-color: #fff;
+    border:1px solid black
+}
+tfoot{
+    color:#000;
+    font-size: 16px;
+    background-color: #ccc;
+    border:1px solid black
+}
+caption{
+    color:#000;
+    font-size: 14px;
+}
+thead{
+    background-color: #666;
+    border:1px solid black;
+    border:1px solid black
+}
+table{
+    border:1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+td{
+    border:1px solid black;
+    padding: 10px;
+}

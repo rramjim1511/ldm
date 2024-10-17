@@ -6,28 +6,30 @@ h1{
 
 
 h2#titulo1{
-    color:blue
+    color:blue; 
+    text-align: center;
+    padding-top: 20px;
 }
 h2#titulo2{
-    color:green
+    color:green;
+    text-align: center;
+    padding-top: 20px;
 }
 div#div1{
     background-color:gray 
 }
-div#div2{
-    
+div#div5{
     border: 2px solid black;
 }
 div#div2{
-    background-color: gray;
-}
-
-div#div1{
-    border: 2px solid black
+    border: 10px double black;
 }
 div#div3{
+    background-color: gray;
+}
+div#div6{
     border: 2px solid black;
 }
 div#div4{
-    border: 2px solid black;
+    border: 10px double black;
 }
