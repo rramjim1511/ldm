@@ -1,0 +1,39 @@
+h1{
+    background-color: #1e374b;
+    color:white;
+    padding-left: 85px;
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+nav ul{
+    background-color: #466482;
+    display: flex; 
+    list-style-type: none;
+    margin-top: -15px;
+    
+}
+nav a {
+    text-decoration: none;
+    color:white
+    
+}
+nav li{
+    
+    margin-right: 40px;
+    margin-left: -25px;
+    padding: 10px;
+}
+img{
+    
+    position: absolute;
+    bottom: 89%;
+}
+div{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: baseline;
+flex-wrap: wrap
+}

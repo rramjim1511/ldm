@@ -1,0 +1,26 @@
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+p#id{
+    background-color: gray;
+}
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1.especial {
+    color: blue;
+    font-weight: bold;
+}
+
+h2, h3 {
+    border: 1px solid orange;
+}
+
+ul#ra{
+    color:green
+}
+ul#re{
+    color:red
+}

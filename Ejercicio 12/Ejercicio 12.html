@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Ejercicio 12.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form>  
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                <lavel for="input_nombre">Nombre</lavel>
+                <input type="text" id="i-name" name="input_nombre" placeholder="Su Nombre">
+
+                <br>
+
+                <label for="input_email">Correo Electronico</label>
+                <input type="email" id="i-email" name="input_email" placeholder="nombre@servidor.es" required>
+
+            </fieldset>
+            <fieldset>
+                <legend>Datos del proyecto</legend>
+
+                <label>Breve descripcion del proyecto:</label><br>
+                <textarea id="BrevDesc" name="Breve descripcion del proyecto"></textarea>
+                <br>
+                <br>
+
+                <label>Estado actual del proyecto</label><br>
+                <label><input type="radio" name="estado" value="en planteamiento" checked> En planteamiento</label>
+                <label><input type="radio" name="estado" value="en planificacion " >En planificacion</label>
+                <label><input type="radio" name="estado" value="en ejecucion" >En ejecucion</label>
+                <label><input type="radio" name="estado" value="ya finalizado" >Ya finalizado</label>
+                <br>
+                <br>
+
+                <label>Presupuesto aproximado (en €) <input type="number" id=i-number name=presupuesto placeholder="1000"></label>
+            </fieldset>
+            <input type="submit" id="enviar" name="i_submit">
+    </form>
+</body>
+</html>

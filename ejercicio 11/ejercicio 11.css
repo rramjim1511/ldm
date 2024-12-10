@@ -1,0 +1,42 @@
+body {
+    background-color: #33e7ff; 
+    font-family: sans-serif; 
+}
+
+
+h1 {
+    margin: 20px 0;
+    color: #005a66;
+    font-size: 4rem; 
+    letter-spacing: 2rem; 
+    text-align: center; 
+    text-transform: uppercase; 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite ajustar las citas automáticamente */
+    justify-content: center;
+    padding: 10px;
+}
+
+p {
+    float: left; 
+    width: 16rem; 
+    height: 16rem; 
+    overflow: hidden; 
+    border: 5px solid #005a66; 
+    margin: 10px; 
+    padding: 10px; 
+    background-color: #00b4cc; 
+    font-size: 1.5rem; 
+    font-style: italic; 
+    box-sizing: border-box; }
+
+
+p::first-letter {
+    float: left; 
+    color: #005a66; 
+    font-size: 5rem; 
+    font-style: italic; 
+    line-height: 3rem; 
+}

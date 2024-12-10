@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(90deg, #212a33, #b51625);
+    color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+header .header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header img#logo-left {
+    width: 150px;
+    height: auto;
+    display: inline-block;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: #161d25;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #b51625;
+}
+
+nav img#nav-logo-right {
+    margin-left: auto;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.form-container {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+    
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #b51625;
+}
+
+.form-container label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container input[type="checkbox"] {
+    width: auto;
+    margin-top: 10px;
+}
+
+.form-container button {
+    background-color: #b51625;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form-container button:hover {
+    background-color: #a31322;
+}
+
+iframe {
+    max-width: 100%;
+    border: 0;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #212a33;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 40px;
+}

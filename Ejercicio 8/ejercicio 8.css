@@ -1,0 +1,36 @@
+body{
+    background-color:#eeeeee ;
+    color:black;
+    text-align: justify;
+    font-family: sans-serif;
+}
+h1{
+    color: #333333;
+    font-size: 200%;
+    text-align: center;
+    text-transform: capitalize;
+}
+h2{
+    background-color: #888888;
+    color: red;
+    font-size: 150%;
+}
+h3{
+    background-color: #aaaaaa;
+    color: darkmagenta;
+    font-size: 130%;
+}
+p{
+    background-color: #cccccc;
+}
+em{
+    color: blue;
+    font-style: normal;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+strong{
+    color:green;
+    font-style: normal;
+    font-weight: lighter;
+}
